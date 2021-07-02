@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+
+<html> 
+<head>
+
+<link href = "GPA.css" rel = "stylesheet"> 
+
+<title> GpaCalculator</title>
+
+</head>
+
+<body>
+
+    <script src = "GPA.js"> </script>
+
+    <section class = "header_section">  <h1> GPA Calculator</h1> </section>
+
+    <section class = "input_section">
+	       <textarea id = "user_input" cols = "50" rows = "15" placeholder = "Course Grade Hours "></textarea>
+    </section>
+	 
+
+    <small id = "makeitsmall"> Format: CS201 B+ 3 </small>    
+    <button id = "compute_button" type = "button" onclick = "userInput()"> ComputeGPA </button>
+    <br><br>
+
+<section class = "results_section">
+
+   
+     <label for = "gradePoints" id = "tab1"> Total # of grade points:</label>  
+     <input type = "text" id = "gradePoints"  readonly> <br><br> 
+	
+    <label for = "creditHours" id = "tab2" > Total # of credit hours: </label>
+	<input type = "text" id = "creditHours" readonly> <br><br>
+	
+
+    <label for = "gpa" id = "tab3"> Grade Point Average:  </label>  
+    <input type = "text" id = "gpa" readonly> <br><br>
+   	
+
+</section>
+
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+
